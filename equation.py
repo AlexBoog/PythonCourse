@@ -8,8 +8,9 @@ if a == 0 and b != 0 and c != 0:
     x = -c/b
     print(x)
 elif a != 0 and b == 0 and c != 0:
-    x = m.sqrt(-c/a)
-    print(x)
+    if c < 0:
+        x = m.sqrt(-c/a)
+        print(x)
 elif a != 0 and b != 0 and c == 0:
     x = 0
     x2= -b/a
