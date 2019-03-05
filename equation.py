@@ -15,6 +15,8 @@ elif a != 0 and b != 0 and c == 0:
     x = 0
     x2= -b/a
     print(x,x2)
+elif a == 0 and b == 0 and c!= 0:
+    print("")
 elif a != 0 and b != 0 and c != 0:
     D = b*b - 4*a*c
     if D>0:
